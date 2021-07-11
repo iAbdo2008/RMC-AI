@@ -1,0 +1,67 @@
+name: RedsCore
+main: RedstoneCore\Main
+author: iAbdo
+api: 3.21.0
+version: 2.0
+
+commands:
+  welcome:
+    description: "Welcome with our New Member"
+  staffmode:
+    description: "FlyUI"
+  hub:
+    description: "Teleports You To Hub"
+  rules:
+    description: "Rules"
+  killwand:
+    description: "i will kill you if u use it "
+  rteleport:
+    description: "OP"
+  rban:
+    description: "Ban Commands"
+  runban:
+    description: "UnBan Commands"
+  report:
+    description: "Report a Player"
+  event:
+    description: "Start Event"
+  store:
+    description: "Store Command - RedstoneMc Studios 2020 - 2021"
+  setrank:
+    description: "Ranks Commands"
+  staffstatus:
+    description: "Staff Status"
+  mute:
+    description: "Mute System"
+  test:
+    description: "Test"
+  unmute:
+    description: "UnMute System"
+  setjoinmsg:
+    description: "if You are VIP or Heigher You Can Set Your Join Message"
+  setleavemsg:
+    description: "if You are VIP or Heigher You Can Set Your Leave Message"
+  discord:
+    description: "Join Our Discord !"
+permissions:
+  owner.rmc:
+    default: op
+    description: "Owner"
+  staff.rmc:
+    default: op
+    description: "staff Perms"
+  kill.rmc:
+    default: op
+    description: "kill wand"
+  vip.rmc:
+    default: op
+    description: "VIP Perms"
+  vipx.rmc:
+    default: op
+    description: "VIP+ Perms"
+  mvp.rmc:
+    default: op
+    description: "MVP Perms"
+  staffm.rmc:
+    default: op
+    description: "StaffManager & Manager Perms"
